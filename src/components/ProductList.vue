@@ -13,4 +13,16 @@ export default {
 </script>
 
 <style scoped>
+main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+@media (min-width: 992px) {
+  main {
+    flex-flow: row wrap;
+  }
+}
 </style>

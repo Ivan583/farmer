@@ -58,3 +58,59 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+/* figure {
+  width: 260px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px 0 20px 90px;
+}
+
+figure img {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #333;
+  border: 5px solid green;
+}
+
+.figure {
+  width: 240px;
+  height: 240px;
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font: bold 1em / normal Verdana, Arial, Helvetica, sans-serif;
+  color: #333;
+  width: 240px;
+  background-color: #e6f3ff;
+  border: 1px dashed #666;
+  padding: 8px;
+  padding-left: 15px;
+  border-radius: 0 0 10px 10px;
+} */
+
+/* Рейтинг */
+
+/* .active-star:before {
+  content: "\2605";
+  position: absolute;
+}
+
+.rating {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-left: 45px;
+}
+
+.rating span {
+  display: flex;
+  width: 1.3em;
+  color: red;
+} */
+</style>
+
