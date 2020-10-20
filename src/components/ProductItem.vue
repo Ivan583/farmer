@@ -6,6 +6,7 @@
         <div class="title">
           <p v-text="product.title"></p>
         </div>
+        <br />
         <div class="description">
           <p v-html="product.description"></p>
         </div>
@@ -60,7 +61,7 @@ export default {
 </script>
 
 <style scoped>
-/* figure {
+figure {
   width: 260px;
   border-radius: 10px;
   padding: 10px;
@@ -91,11 +92,11 @@ figcaption {
   padding: 8px;
   padding-left: 15px;
   border-radius: 0 0 10px 10px;
-} */
+}
 
 /* Рейтинг */
 
-/* .active-star:before {
+.active-star:before {
   content: "\2605";
   position: absolute;
 }
@@ -111,6 +112,32 @@ figcaption {
   display: flex;
   width: 1.3em;
   color: red;
-} */
-</style>
+}
 
+@media (min-width: 600px) {
+  figure {
+    display: flex;
+    width: 550px;
+    margin: 15px 40px 20px;
+  }
+
+  figcaption {
+    height: 240px;
+    margin-left: 10px;
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  figure {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+  }
+
+  figcaption {
+    margin-left: 0;
+    border-radius: 0 0 10px 10px;
+  }
+}
+</style>
