@@ -36,6 +36,10 @@ const routes = [{
     path: '/mechan',
     name: 'Mechanisms',
     component: () => import('../views/Mechanisms.vue')
+  },
+  {
+    path: '*',
+    redirect: '/'
   }
 ]
 
