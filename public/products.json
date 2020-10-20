@@ -1,0 +1,66 @@
+{
+    "products": [{
+            "id": 1,
+            "title": "Figure 1:",
+            "description": "Even the carpet-like <em>Carpetorium Pratensis</em> requires mowing.",
+            "price": 50.00,
+            "image": "images/carpet.jpg",
+            "alt": "Carpet Grass",
+            "rating": 4
+        },
+        {
+            "id": 2,
+            "title": "Figure 2:",
+            "description": "Creeping Bentgrass is best suited for outdoor use and should be avoided by the indoor farmer.",
+            "price": 75.00,
+            "image": "images/grass.jpg",
+            "alt": "Bentgrass",
+            "rating": 3
+        },
+        {
+            "id": 3,
+            "title": "Figure 3:",
+            "description": "This indoor-hybrid of Kentucky Bluegrass has fallen out of fashion.",
+            "price": 280.00,
+            "image": "images/bluegrass.jpg",
+            "alt": "Bluegrass",
+            "rating": 2
+        },
+        {
+            "id": 4,
+            "title": "Figure 4:",
+            "description": "<em>Tinea Pedis Poaceae</em> threatens discomfort to bare feet.",
+            "price": 440.00,
+            "image": "images/leaves.jpg",
+            "alt": "Leaves",
+            "rating": 3
+        },
+        {
+            "id": 5,
+            "title": "Figure 5:",
+            "description": "The difficult to maintain pattern of this indoor lawn is a sight to behold.",
+            "price": 1200.00,
+            "image": "images/pattern.jpg",
+            "alt": "Pattern",
+            "rating": 4
+        },
+        {
+            "id": 6,
+            "title": "Figure 6:",
+            "description": "The dandelion: scourge of the apartment farmer.",
+            "price": 650.00,
+            "image": "images/dandelion.jpg",
+            "alt": "Dandelion",
+            "rating": 4
+        },
+        {
+            "id": 7,
+            "title": "Figure 7:",
+            "description": "Even the carpet-like <em>Carpetorium Pratensis</em> requires mowing.",
+            "price": 800.00,
+            "image": "images/trowel.jpg",
+            "alt": "Trowel",
+            "rating": 2
+        }
+    ]
+}
