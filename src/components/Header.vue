@@ -12,60 +12,17 @@
         magni
         dolores eos qui ratione voluptatem sequi nesciunt.
       </p>
-      <!-- <div class="wrapperInner">
-        <input type="checkbox" id="check-menu" />
-      <label for="check-menu">ТОВАРЫ</label>-->
 
-      <!-- Гамбургер -->
-      <!-- <div class="burger-line one"></div>
-        <div class="burger-line two"></div>
-        <div class="burger-line three"></div>
-      <div class="burger-line four"></div>-->
-
-      <!-- Выпадающий список -->
-      <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-      </div>-->
-      <!-- <div class="main-menu">
-          <a href="pages/product1.html">Озимые культуры</a>
-          <a href="pages/product2.html">Яровые культуры</a>
-          <a href="pages/product3.html">Удобрения</a>
-          <a href="pages/product4.html">Инструменты</a>
-          <a href="pages/product5.html">Механизмы</a>
-        </div>
-      </div>
-      <div class="big-menu">
-        <ul>
-          <li>
-            <a href="pages/product1.html">Озимые культуры</a>
-          </li>
-          <li>
-            <a href="pages/product2.html">Яровые культуры</a>
-          </li>
-          <li>
-            <a href="pages/product3.html">Удобрения</a>
-          </li>
-          <li>
-            <a href="pages/product4.html">Инструменты</a>
-          </li>
-          <li>
-            <a href="pages/product5.html">Механизмы</a>
-          </li>
-        </ul>
-      </div>-->
+      <NavPanel />
     </div>
   </header>
 </template>
 
 <script>
-// export default {
-//   name: "HelloWorld",
-//   props: {
-//     msg: String
-//   }
-// };
-//
+import NavPanel from "@/components/NavPanel.vue";
+export default {
+  components: { NavPanel }
+};
 </script>
 
 <style scoped>
