@@ -12,15 +12,18 @@
         magni
         dolores eos qui ratione voluptatem sequi nesciunt.
       </p>
-      <NavPanel />
+      <MobileMenu />
+      <DesktopMenu />
     </div>
   </header>
 </template>
 
 <script>
-import NavPanel from "@/components/NavPanel.vue";
+import MobileMenu from "@/components/MobileMenu.vue";
+import DesktopMenu from "@/components/DesktopMenu.vue";
+
 export default {
-  components: { NavPanel }
+  components: { MobileMenu, DesktopMenu }
 };
 </script>
 

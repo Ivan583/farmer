@@ -1,37 +1,23 @@
 <template>
-  <div>
-    <div class="box">
-      <input type="checkbox" id="check-menu" />
-      <label for="check-menu">ТОВАРЫ</label>
+  <div class="box">
+    <input type="checkbox" id="check-menu" />
+    <label for="check-menu">ТОВАРЫ</label>
 
-      <!-- Гамбургер -->
-      <div class="burger-line one"></div>
-      <div class="burger-line two"></div>
-      <div class="burger-line three"></div>
-      <div class="burger-line four"></div>
+    <div class="burger-line one"></div>
+    <div class="burger-line two"></div>
+    <div class="burger-line three"></div>
+    <div class="burger-line four"></div>
 
-      <!-- Выпадающий список -->
-
-      <div class="main-menu">
-        <router-link to="/">На главную</router-link>
-        <router-link to="/winter">Озимые культуры</router-link>
-        <router-link to="/spring">Яровые культуры</router-link>
-        <router-link to="/fertil">Удобрения</router-link>
-        <router-link to="/tools">Инструменты</router-link>
-        <router-link to="/mechan">Механизмы</router-link>
-      </div>
+    <div class="main-menu">
+      <router-link to="/">На главную</router-link>
+      <router-link to="/winter">Озимые культуры</router-link>
+      <router-link to="/spring">Яровые культуры</router-link>
+      <router-link to="/fertil">Удобрения</router-link>
+      <router-link to="/tools">Инструменты</router-link>
+      <router-link to="/mechan">Механизмы</router-link>
     </div>
-
-    <BigMenu />
   </div>
 </template>
-
-<script>
-import BigMenu from "@/components/BigMenu.vue";
-export default {
-  components: { BigMenu }
-};
-</script>
 
 <style scoped>
 .box {
