@@ -1,6 +1,6 @@
 <template>
   <div class="lds-heart">
-    <div></div>
+    <div />
   </div>
 </template>
 

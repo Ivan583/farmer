@@ -12,7 +12,6 @@
         magni
         dolores eos qui ratione voluptatem sequi nesciunt.
       </p>
-
       <NavPanel />
     </div>
   </header>

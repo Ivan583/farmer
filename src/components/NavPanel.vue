@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="wrapperInner">
+    <div class="box">
       <input type="checkbox" id="check-menu" />
       <label for="check-menu">ТОВАРЫ</label>
 
@@ -48,7 +48,7 @@
 </template>
 
 <style scoped>
-.wrapperInner {
+.box {
   margin: 20px 100px 20px 130px;
   width: 240px;
   background: rgb(90, 206, 90);
@@ -71,8 +71,6 @@ label {
   line-height: 50px;
   z-index: 2;
 }
-
-/* Убираем чекбокс */
 
 #check-menu {
   display: none;
@@ -104,7 +102,6 @@ label {
 
 a {
   display: block;
-  width: 196px;
   padding: 10px;
   color: red;
   background: rgb(90, 206, 90);
@@ -158,7 +155,7 @@ a {
 }
 
 @media (min-width: 600px) {
-  .wrapperInner {
+  .box {
     display: none;
   }
 
@@ -174,6 +171,7 @@ a {
 
   .big-menu li a {
     display: inline-block;
+    width: 196px;
     color: red;
     background: rgb(90, 206, 90);
     font-family: Arial, Helvetica, sans-serif;
