@@ -5,11 +5,7 @@
       <label for="check-menu">ТОВАРЫ</label>
 
       <!-- Гамбургер -->
-      <div class="burger-line one"></div>
-      <div class="burger-line two"></div>
-      <div class="burger-line three"></div>
-      <div class="burger-line four"></div>
-
+      <BurgerMenuButton />
       <!-- Выпадающий список -->
 
       <div class="main-menu">
@@ -46,6 +42,13 @@
     </div>
   </div>
 </template>
+
+<script>
+import BurgerMenuButton from "@/components/BurgerMenuButton.vue";
+export default {
+  components: { BurgerMenuButton }
+};
+</script>
 
 <style scoped>
 .wrapperInner {
@@ -111,28 +114,6 @@ a {
   text-decoration: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
-
-/* Гамбургер */
-
-.burger-line {
-  position: absolute;
-  top: 12px;
-  right: 10px;
-  width: 35px;
-  height: 2px;
-  background-color: #fff;
-  transition: all 0.5s;
-}
-
-.two,
-.three {
-  top: 25px;
-}
-
-.four {
-  top: 38px;
-}
-
 /* Крест */
 
 #check-menu:checked ~ .one {
