@@ -5,14 +5,7 @@
 </template>
 
 <style scoped>
-footer {
-  position: sticky;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-footer p {
+p {
   width: 100%;
   font-size: 1.5em;
   font-weight: bold;
