@@ -22,5 +22,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Файл reset.css в папке public
 
-### Компоненты MobileMenu и DropDown
+### Компоненты MobileMenu & DropDown
 ### использовать вместе
